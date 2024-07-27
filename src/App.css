@@ -1,0 +1,64 @@
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+    width: 24rem; 
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2); 
+  }
+  
+  @media (max-width: 1024px) {
+    .card {
+      width: calc(50% - 20px); 
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      width: calc(100% - 20px); 
+    }
+  }
+  
+  .orange-btn {
+    background-color: #ff6600; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: 2px solid #ff6600; /* Set button border */
+}
+
+/* Hover effect for the orange button */
+.orange-btn:hover {
+    background-color: #ff6600; /* Change button background color on hover */
+    border-color: #ff6600; /* Change button border color on hover */
+}
+  .main-sidebar{
+    background-color: #e77428; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: 2px solid #b48261; /* Se*/
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    margin-right: 10px; /* Adjust this value to your preference for spacing */
+}
+
+
+
+#card1{
+  background-color: #e77428;
+  height: 150px;
+  width: 100%;
+}
